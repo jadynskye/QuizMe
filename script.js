@@ -17,7 +17,7 @@ const totalQuestionsSpan = document.getElementById("total-questions");
 // Quiz questions 
 const quizQuestions = [
   {
-    questionText: "What color is Jadyns eyes?",
+    questionText: "What color are Jadyns eyes?",
     answers: [
       { text: "Green", correct: false },
       { text: "Brown", correct: false },
@@ -26,7 +26,7 @@ const quizQuestions = [
     ],
   },
   {
-    questionText: "What is Jadyns middel name?",
+    questionText: "What is Jadyns middle name?",
     answers: [
       { text: "Hazel", correct: false },
       { text: "Skye", correct: true },
