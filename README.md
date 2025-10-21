@@ -17,7 +17,7 @@ I made this project to get better at JavaScript and understand how it connects w
 
 ![Screenshot](start-screen.png)
 
-![Screenshot](quiz-screen.png)
+![Screenshot](quizz-screen.png)
 
 ![Screenshot](result-screen.png)
 
