@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Quiz Game</title>
+        <link rel="stylesheet" href="styles.css"> 
+    </head>
+    <body>
+        <!--Container for screens-->
+        <div class="container">
+            <!--Start screen-->
+            <!--Use id to type a h1 or so element in css and to find/control in JS-->
+            <div class="screen active " id="start-screen">
+                <h1>Quiz Time!</h1>
+                <p>Test Your Knowledge with these fun questions</p>
+                <button class="Start-btn" id="start-btn">Start Quiz</button>
+            </div>
+
+            <!--Quiz screen-->
+            <div class="screen" id="quiz-screen">
+                <!--To target #question-text id use # instead of .-->
+                <h2 id="question-text">Question Goes here</h2>
+                <div class="Quiz-info">
+                    <p>
+                        Question <span id="current-question">1</span> of <span id="total-questions">5</span>
+                    </p>
+                    <p>Score: <span id="score">0</span></p>
+                </div>
+
+                <div class="answers-container" id="answers-container">
+                    <!--Answer buttons will be inserted here later-->
+                    <button class="answer-btn"></button>
+                    <button class="answer-btn"></button>
+                    <button class="answer-btn"></button>
+                    <button class="answer-btn"></button>
+                </div>
+
+                 <div class="progress-bar">
+                    <div class="progress" id="progress"></div>
+                </div>
+            </div>
+
+
+            <!--Result screen-->
+            <div class="screen" id="result-screen">
+                <h1>Quiz Results</h1>
+                <div class="result-info">
+                    <p>You scored <span id="final-score">0</span> out of <span id="max-score">5</span></p>
+
+                    <div id="result-message">Good job!</div>
+                </div>
+                <button class="restart-btn" id="restart-btn">Restart quiz</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
