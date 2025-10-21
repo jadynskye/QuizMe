@@ -35,6 +35,8 @@ I made this project to get better at JavaScript and understand how it connects w
 
 Quiz-Game/
 │
-├── index.html       # Main HTML file
-├── styles.css       # Styling for layout and theme
-└── script.js        # Quiz logic and event handling
+├── index.html # Main HTML file
+
+├── styles.css # Styling for layout and theme
+
+└── script.js # Quiz logic and event handling
